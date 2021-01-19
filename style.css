@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.baner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: rgba(136,145,142, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100px;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+}
+
+
+.baner h2 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.baner h2 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.baner h2 a:hover {
+    color: #dbdada;
+}
+
+
+nav {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 35px;
+}
+.baner li {
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.baner li a {
+    text-decoration: none;
+    color: #ffffff
+}
+
+.baner li a:hover {
+    color: #dbdada;
+}
+
+@media only screen and (max-width: 750px) {
+    .baner h2 {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    
+    nav {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .baner li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 760px){
+
+    .baner h2 {
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    
+    nav {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .baner li {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 1000px){ 
+    
+    .baner h2 {
+        margin-left: 30px;
+        font-size: 35px;
+    }
+    
+    nav {
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    .baner li {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

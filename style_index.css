@@ -1,0 +1,71 @@
+body {
+    background-image: url('img/index1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.quote-block {
+    display: block;
+    position: fixed;
+    margin-left: 150px;
+    margin-top: 15%;
+    height: 140px;
+    width: 250px;
+}
+
+.quote-block p {
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 750px) {
+    .quote-block {
+        margin-left: 50px;
+        margin-top: 70%;
+        height: 140px;
+        width: 680px;
+    }
+    .quote-block p {
+        font-size: 15px;
+
+    }
+}
+
+
+@media only screen and (min-width: 760px) {
+   
+    
+    .quote-block {
+        margin-left: 200px;
+        margin-top: 15%;
+        height: 140px;
+        width: 680px;
+    }
+    .quote-block p {
+        font-size: 25px;
+
+    }
+    
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    
+    .quote-block {
+        position: fixed;
+        margin-left: 300px;
+        margin-top: 15%;
+        height: 140px;
+        width: 680px;
+    }
+    
+    .quote-block p {
+      
+        font-size: 30px;
+       
+    }
+    
+}

@@ -1,0 +1,221 @@
+body {
+    background-image: url('img/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    margin: 0 auto; 
+    width: 350px;
+}
+
+.contact_h2{
+    margin-top: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 0px  #000000;
+    text-transform: uppercase;
+}
+
+form {
+    margin-top: 110px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 2px 1px  #000000;
+}
+
+input[type=text]  {
+    width: 50%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type=email]  {
+    width: 50%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 50%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    color: #ffffff;
+    background-color: rgba(136,145,142, 0.9);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    
+    background-color: rgba(136,145,142, 0.5);
+   
+}
+
+
+
+label{
+    display: block;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+    .wrapper {
+        margin: 0 auto; 
+    }
+    
+    .contact_h2{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    
+    form {
+        margin-top: 95px;
+        font-size: 20px;
+    }
+    
+    input[type=text]  {
+        width: 80%;
+        padding: 5px 5px;
+        margin: 15px 0;
+    }
+    
+    input[type=email]  {
+        width: 80%;
+        padding: 5px 5px;
+        margin: 10px 0;
+    }
+    
+    textarea {
+        width: 80%;
+        padding: 5px 5px;
+        margin: 10px 0;
+    }
+    
+    input[type=submit] {
+        width: 80%;
+        padding: 14px 20px;
+        margin: 8px 0;
+        font-size: 20px;
+    }
+    
+    label{
+        margin-top: 15px;
+    }
+}
+
+
+@media only screen and (min-width: 760px){
+    .wrapper {
+        width: 700px;
+    }
+    
+    .contact_h2{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    
+    form {
+        margin-top: 125px;
+        font-size: 25px;
+    }
+    
+    input[type=text]  {
+        width: 50%;
+        padding: 5px 5px;
+        margin: 5px 0;
+    }
+    
+    input[type=email]  {
+        width: 50%;
+        padding: 5px 5px;
+        margin: 5px 0;
+    }
+    
+    textarea {
+        width: 50%;
+        padding: 5px 5px;
+        margin: 5px 0;
+    }
+    
+    input[type=submit] {
+        width: 50%;
+        padding: 14px 20px;
+        margin: 8px 0;
+    }
+      
+    label{
+        margin-top: 20px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1000px){
+.wrapper {
+    margin: 0 auto; 
+}
+
+.contact_h2{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+form {
+    margin-top: 125px;
+    font-size: 25px;
+}
+
+input[type=text]  {
+    width: 50%;
+    padding: 5px 5px;
+    margin: 10px 0;
+}
+
+input[type=email]  {
+    width: 50%;
+    padding: 5px 5px;
+    margin: 10px 0;
+}
+
+textarea {
+    width: 50%;
+    padding: 5px 5px;
+    margin: 10px 0;
+}
+
+input[type=submit] {
+    width: 50%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    font-size: 25px;
+}
+
+label{
+    margin-top: 10px;
+}
+}

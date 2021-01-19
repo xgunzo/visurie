@@ -1,0 +1,86 @@
+
+body {
+    background-image: url('img/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    margin: 0 auto; 
+    width: 300px;
+}
+
+.about-text {
+    margin-top: 50px;
+}
+
+.about-text h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 0px  #000000;
+}
+.about-text p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 200px;
+    text-shadow: 1px 1px  #000000;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .wrapper {
+        width: 300px;
+    }
+    
+    .about-text {
+        margin-top: 30px;
+    }
+    
+    .about-text h2 {
+        font-size: 30px;
+    }
+    .about-text p {
+        font-size: 15px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .wrapper {
+        width: 700px;
+    }
+    
+    .about-text {
+        margin-top: 50px;
+    }
+    
+    .about-text h2 {
+        font-size: 40px;
+    }
+    .about-text p {
+        font-size: 25px;
+        margin-top: 200px;
+    }
+
+}
+
+@media only screen and (win-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+    }
+    
+    .about-text {
+        margin-top: 50px;
+    }
+    
+    .about-text h2 {
+        font-size: 40px;
+    }
+    .about-text p {
+        font-size: 25px;
+        margin-top: 200px;
+    }
+}
