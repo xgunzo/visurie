@@ -9,8 +9,8 @@ body {
 .quote-block {
     display: block;
     position: fixed;
-    margin-left: 150px;
-    margin-top: 15%;
+    left: -15em;
+    top: 10em;
     height: 140px;
     width: 250px;
 }
